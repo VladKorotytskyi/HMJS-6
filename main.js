@@ -1,3 +1,4 @@
+// 'use strict';
 //1. Вивести в консоль всі числа від 1 до 10 за допомогою циклу while. 
 
 // let counter = 1;
@@ -40,12 +41,12 @@
 //5. За допомогою циклу while вивести в консоль всі числа від 1 до 20, крім чисел, кратних 3. 
 //Якщо зустрінете число, кратне 3, цикл повинен продовжити виконання за допомогою оператора continue.    
 
-let number = 1;
+// let number = 1;
 
-while (number <= 20) {
-    if (number % 3 === 0) {
-        continue;
-    }
-    console.log(number);
-    number++;
-}
+// while (number <= 20) {
+//     if (number % 3 === 0) {
+//         continue;
+//     }
+//     console.log(number);
+//     number++;
+// }
